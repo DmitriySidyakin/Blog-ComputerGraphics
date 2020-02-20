@@ -5,6 +5,7 @@
 ## Решение на C# для Кривых Безье
 
 Приложение генерирует кадры для анимации в текущем каталоге исполняемого файла. Приложение написано на C# WPF.
+Размер кадра: 400 на 200 точек.
 
 Подкаталог: https://github.com/DmitriySidyakin/ComputerGraphics/tree/master/Bezier/BezierSolution
 
