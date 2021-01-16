@@ -16,7 +16,7 @@
 
 Приложение использует Движок для рендеринга функциональных объектов. Всё построение основано на хранении цветов в 3-х мерном массиве, который представляет собой мир. Главное правильно направить камеру.
 
-Подкаталог: https://github.com/DmitriySidyakin/tree/master/ComputerGraphics/3DSamles/
+Подкаталог: https://github.com/DmitriySidyakin/ComputerGraphics/tree/master/3DSamles/
 
 Русскоязычное Описание алгоритма: [Мой Блог: 3D графика](https://designermanuals.blogspot.com/2021/01/3D.html)
 
