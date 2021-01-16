@@ -21,6 +21,7 @@
 
 ![5 points De Casteljau's Bezier Curve](https://github.com/DmitriySidyakin/ComputerGraphics/blob/master/Documentations/img/b4adc.gif)
 
+но покадрово, кадры находятся в корне.
 
 ## Решение на C# для начала Движка для трёхмерной визуализации функциональных повержностей
 
@@ -36,6 +37,7 @@
 
 ![Bezier Surface](https://github.com/DmitriySidyakin/ComputerGraphics/blob/master/Documentations/img/BezierSurface.png)
 
+Изображения генерируются в корне.
 
 # Примечание
 Приложение позволяет отобразить любые объекты без прозрачности. Они не отделены от примеров.
