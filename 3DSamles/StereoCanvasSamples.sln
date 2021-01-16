@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StereoCanvasSamples", "3DSamles\StereoCanvasSamples.csproj", "{82BC1C05-E893-4E4E-8CB0-FCDE6CE19338}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{E715862E-B136-4B1A-B7B9-60F942BBAAF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82BC1C05-E893-4E4E-8CB0-FCDE6CE19338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82BC1C05-E893-4E4E-8CB0-FCDE6CE19338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82BC1C05-E893-4E4E-8CB0-FCDE6CE19338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82BC1C05-E893-4E4E-8CB0-FCDE6CE19338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E715862E-B136-4B1A-B7B9-60F942BBAAF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E715862E-B136-4B1A-B7B9-60F942BBAAF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E715862E-B136-4B1A-B7B9-60F942BBAAF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E715862E-B136-4B1A-B7B9-60F942BBAAF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDA74BA6-8B9E-4A57-9CE0-449D24FA39A8}
+	EndGlobalSection
+EndGlobal
