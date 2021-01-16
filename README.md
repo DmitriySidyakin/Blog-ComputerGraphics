@@ -13,13 +13,13 @@
 
 ### Проект рендерит следующие картинки:
 
-![4 points Bezier Curve](https://github.com/DmitriySidyakin/ComputerGraphics/tree/master/Documentations/img/b3a.gif)
+![4 points Bezier Curve](https://github.com/DmitriySidyakin/ComputerGraphics/blob/master/Documentations/img/b3a.gif)
 
-![4 points De Casteljau's Bezier Curve](https://github.com/DmitriySidyakin/tree/master/ComputerGraphics/Documentations/img/b3adc.gif)
+![4 points De Casteljau's Bezier Curve](https://github.com/DmitriySidyakin/blob/master/ComputerGraphics/Documentations/img/b3adc.gif)
 
-![5 points Bezier Curve](https://github.com/DmitriySidyakin/ComputerGraphics/tree/master/Documentations/img/b4a.gif)
+![5 points Bezier Curve](https://github.com/DmitriySidyakin/ComputerGraphics/blob/master/Documentations/img/b4a.gif)
 
-![5 points De Casteljau's Bezier Curve](https://github.com/DmitriySidyakin/tree/master/ComputerGraphics/Documentations/img/b4adc.gif)
+![5 points De Casteljau's Bezier Curve](https://github.com/DmitriySidyakin/blob/master/ComputerGraphics/Documentations/img/b4adc.gif)
 
 
 ## Решение на C# для начала Движка для трёхмерной визуализации функциональных повержностей
@@ -32,7 +32,7 @@
 
 ### Проект рендерит следующие картинки:
 
-![Cube](https://github.com/DmitriySidyakin/ComputerGraphics/tree/master/tree/master/Documentations/img/cube.png)
+![Cube](https://github.com/DmitriySidyakin/ComputerGraphics/tree/master/blob/master/Documentations/img/cube.png)
 
-![Bezier Surface](https://github.com/DmitriySidyakin/ComputerGraphics/tree/master/Documentations/img/BezierSurface.png)
+![Bezier Surface](https://github.com/DmitriySidyakin/ComputerGraphics/blob/master/Documentations/img/BezierSurface.png)
 
