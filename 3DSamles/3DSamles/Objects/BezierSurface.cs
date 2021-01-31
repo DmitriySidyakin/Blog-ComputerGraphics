@@ -27,29 +27,16 @@ namespace StereoCanvasSamples.Objects
                 new TDPoint() { X = -10*xSSAA, Y = 0*xSSAA,   Z = 20*xSSAA },
                 new TDPoint() { X = -10*xSSAA, Y = 10*xSSAA,  Z = 0*xSSAA },
             };
-            /*
-            TDPoint[] points2 = new TDPoint[3] {
-                new TDPoint() { X = -10*xSSAA, Y = 10*xSSAA,  Z = 0*xSSAA },
-                new TDPoint() { X = 0*xSSAA,   Y = 10*xSSAA,  Z = -20*xSSAA },
-                new TDPoint() { X = 10*xSSAA,  Y = 10*xSSAA,  Z = 0*xSSAA },
-            };*/
 
             TDPoint[] points3 = new TDPoint[3] {
                 new TDPoint() { X = 10*xSSAA,  Y = -10*xSSAA, Z = 0*xSSAA },
                 new TDPoint() { X = 10*xSSAA,  Y = 0*xSSAA,   Z = 20*xSSAA },
                 new TDPoint() { X = 10*xSSAA,  Y = 10*xSSAA,  Z = 0*xSSAA },
             };
-            /*
-            TDPoint[] points4 = new TDPoint[3] {
-                new TDPoint() { X = -10*xSSAA, Y = -10*xSSAA, Z = 0*xSSAA },
-                new TDPoint() { X = 0*xSSAA,   Y = -10*xSSAA, Z = -20*xSSAA },
-                new TDPoint() { X = 10*xSSAA,  Y = -10*xSSAA, Z = 0*xSSAA },
-            };*/
-            
+
             double t = 0;
             while(t <= 1)
             {
-                //AddPointIfNoExists(_pixels, new TDPoint() { X = (long)Sum(points1.Select(p => p.X), t), Y = (long)Sum(points1.Select(p => p.Y), t), Z = (long)Sum(points1.Select(p => p.Z), t) }, ref color, ref color, ref color);
                 TDPoint p1 = new TDPoint() { X = (long)Sum(points1.Select(p => p.X), t), Y = (long)Sum(points1.Select(p => p.Y), t), Z = (long)Sum(points1.Select(p => p.Z), t) };
                 TDPoint p3 = new TDPoint() { X = (long)Sum(points3.Select(p => p.X), t), Y = (long)Sum(points3.Select(p => p.Y), t), Z = (long)Sum(points3.Select(p => p.Z), t) };
                 TDPoint[] points13 = new TDPoint[2] {
@@ -68,17 +55,6 @@ namespace StereoCanvasSamples.Objects
                 t += 0.01;
             }
 
-            // Добавляем направляющие точки:
-            /*
-            Color bezierPointColor = Colors.Red;
-            AddPointIfNoExists(_pixels, points1[0],ref bezierPointColor, ref bezierPointColor, ref bezierPointColor);
-            AddPointIfNoExists(_pixels, points1[1], ref bezierPointColor, ref bezierPointColor, ref bezierPointColor);
-            AddPointIfNoExists(_pixels, points2[0], ref bezierPointColor, ref bezierPointColor, ref bezierPointColor);
-            AddPointIfNoExists(_pixels, points2[1], ref bezierPointColor, ref bezierPointColor, ref bezierPointColor);
-            AddPointIfNoExists(_pixels, points3[0], ref bezierPointColor, ref bezierPointColor, ref bezierPointColor);
-            AddPointIfNoExists(_pixels, points3[1], ref bezierPointColor, ref bezierPointColor, ref bezierPointColor);
-            AddPointIfNoExists(_pixels, points4[0], ref bezierPointColor, ref bezierPointColor, ref bezierPointColor);
-            AddPointIfNoExists(_pixels, points4[1], ref bezierPointColor, ref bezierPointColor, ref bezierPointColor);*/
         }
 
         private decimal Sum(IEnumerable<long> points, double t)
@@ -179,7 +155,7 @@ namespace StereoCanvasSamples.Objects
         private void InitDeltaColor(long x, long y, long z, out double deltaLight, out double deltaShadow)
         {
             if (z <= 0) deltaLight = 0;
-            else deltaLight = (double) z / (10*xSSAA);
+            else deltaLight = (double) z / (10 * xSSAA);
 
             if (z >= 0) deltaShadow = 0;
             else deltaShadow = (double) -z / (10 * xSSAA);

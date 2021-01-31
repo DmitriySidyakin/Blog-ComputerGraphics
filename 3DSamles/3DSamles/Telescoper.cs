@@ -64,9 +64,9 @@ namespace StereoCanvasSamples
         private TDPoint GetCurrentPoint(TDPointD start, long step)
         {
             if (Camera.Direction == Direction.Front)
-                return new TDPoint() { X = (long)Math.Ceiling(start.X - step * Camera.NormalSingleVector.X), Y = (long)Math.Ceiling(start.Y - step * Camera.NormalSingleVector.Y), Z = (long)Math.Ceiling(start.Z - step * Camera.NormalSingleVector.Z) };
+                return new TDPoint() { X = (long)Math.Round(start.X - step * Camera.NormalSingleVector.X), Y = (long)Math.Round(start.Y - step * Camera.NormalSingleVector.Y), Z = (long)Math.Round(start.Z - step * Camera.NormalSingleVector.Z) };
             else
-                return new TDPoint() { X = (long)Math.Ceiling(start.X + step * Camera.NormalSingleVector.X), Y = (long)Math.Ceiling(start.Y + step * Camera.NormalSingleVector.Y), Z = (long)Math.Ceiling(start.Z + step * Camera.NormalSingleVector.Z) };
+                return new TDPoint() { X = (long)Math.Round(start.X + step * Camera.NormalSingleVector.X), Y = (long)Math.Round(start.Y + step * Camera.NormalSingleVector.Y), Z = (long)Math.Round(start.Z + step * Camera.NormalSingleVector.Z) };
         }
 
         public Color GetColor(

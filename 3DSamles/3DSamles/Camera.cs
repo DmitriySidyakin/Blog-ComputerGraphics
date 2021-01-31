@@ -35,7 +35,7 @@ namespace StereoCanvasSamples
                 Ly = TopLeft.Y - TopRight.Y;
                 Lz = TopLeft.Z - TopRight.Z;
 
-                L = (long)Math.Ceiling(Math.Sqrt(Lx * Lx + Ly * Ly + Lz * Lz));
+                L = (long)Math.Round(Math.Sqrt(Lx * Lx + Ly * Ly + Lz * Lz));
 
                 return L;
             }
@@ -54,7 +54,7 @@ namespace StereoCanvasSamples
                 Ly = TopLeft.Y - BottomLeft.Y;
                 Lz = TopLeft.Z - BottomLeft.Z;
 
-                L = (long)Math.Ceiling(Math.Sqrt(Lx * Lx + Ly * Ly + Lz * Lz));
+                L = (long)Math.Round(Math.Sqrt(Lx * Lx + Ly * Ly + Lz * Lz));
 
                 return L;
             }
@@ -115,7 +115,7 @@ namespace StereoCanvasSamples
                 double dy = FocusDotDistance * NormalSingleVector.Y;
                 double dz = FocusDotDistance * NormalSingleVector.Z;
 
-                return new TDPoint() { X = (long)Math.Ceiling(middlePoint.X + dx), Y = (long)Math.Ceiling(middlePoint.Y + dy), Z = (long)Math.Ceiling(middlePoint.Z + dz) };
+                return new TDPoint() { X = (long)Math.Round(middlePoint.X + dx), Y = (long)Math.Round(middlePoint.Y + dy), Z = (long)Math.Round(middlePoint.Z + dz) };
             }
         }
 

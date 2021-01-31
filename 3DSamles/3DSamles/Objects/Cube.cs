@@ -59,15 +59,15 @@ namespace StereoCanvasSamples.Objects
         {
             if (deltaLight > 0)
             {
-                r = (byte)Math.Ceiling(color.R * (deltaLight) + colorLight.R * (1 - deltaLight));
-                g = (byte)Math.Ceiling(color.G * (deltaLight) + colorLight.R * (1 - deltaLight));
-                b = (byte)Math.Ceiling(color.B * (deltaLight) + colorLight.R * (1 - deltaLight));
+                r = (byte)Math.Round(color.R * (deltaLight) + colorLight.R * (1 - deltaLight));
+                g = (byte)Math.Round(color.G * (deltaLight) + colorLight.R * (1 - deltaLight));
+                b = (byte)Math.Round(color.B * (deltaLight) + colorLight.R * (1 - deltaLight));
             }
             else if (deltaShadow > 0)
             {
-                r = (byte)Math.Ceiling(color.R * (deltaShadow) + colorShadow.R * (1 - deltaShadow));
-                g = (byte)Math.Ceiling(color.G * (deltaShadow) + colorShadow.G * (1 - deltaShadow));
-                b = (byte)Math.Ceiling(color.B * (deltaShadow) + colorShadow.B * (1 - deltaShadow));
+                r = (byte)Math.Round(color.R * (deltaShadow) + colorShadow.R * (1 - deltaShadow));
+                g = (byte)Math.Round(color.G * (deltaShadow) + colorShadow.G * (1 - deltaShadow));
+                b = (byte)Math.Round(color.B * (deltaShadow) + colorShadow.B * (1 - deltaShadow));
             }
             else
             {
@@ -79,7 +79,7 @@ namespace StereoCanvasSamples.Objects
 
         private void Init(long cubeWidth, out int cubeHalf, out Dictionary<TDPoint, CubeDot> pixels, out Color color, out Color colorLight, out Color colorShadow)
         {
-            cubeHalf = (int)Math.Ceiling((double)cubeWidth / 2);
+            cubeHalf = (int)Math.Round((double)cubeWidth / 2);
             pixels = new Dictionary<TDPoint, CubeDot>();
             color = Colors.Blue;
             colorLight = Colors.White;
