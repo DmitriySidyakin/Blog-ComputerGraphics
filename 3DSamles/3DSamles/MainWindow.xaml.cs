@@ -88,7 +88,7 @@ namespace StereoCanvasSamples
         {
             long focusDotDistance = 36;
 
-            long renderDistance = 36;
+            long renderDistance = 70;
 
             long cubeWidth = 20 * xSSAA;
 
@@ -103,25 +103,13 @@ namespace StereoCanvasSamples
         {
             Camera camera = new Camera()
             {
-                TopLeft = new TDPoint() { X = (long)(-26.17766952966369) * xSSAA, Y = (long)(-9.177669529663685) * xSSAA, Z = (long)(37.47665940288702 - 12) * xSSAA },
-                TopRight = new TDPoint() { X = (long)(9.177669529663685) * xSSAA, Y = (long)(26.17766952966369) * xSSAA, Z = (long)(37.47665940288702 - 12) * xSSAA },
-                BottomLeft = new TDPoint() { X = (long)(-1.177669529663688) * xSSAA, Y = (long)(-34.17766952966369) * xSSAA, Z = (long)(2.121320343559641 - 12) * xSSAA },
+                TopLeft = new TDPoint() { X = (long)(22.67766952966369) * xSSAA, Y = (long)(12.67766952966369) * xSSAA, Z = (long)(42.42640687119285) * xSSAA },
+                TopRight = new TDPoint() { X = (long)(-12.67766952966369) * xSSAA, Y = (long)(-22.67766952966369) * xSSAA, Z = (long)(42.42640687119285) * xSSAA },
+                BottomLeft = new TDPoint() { X = (long)(47.67766952966369) * xSSAA, Y = (long)(-12.32233047033631) * xSSAA, Z = (long)(7.071067811865478) * xSSAA },
                 FocusDotDistance = focusDotDistance * xSSAA,
                 MaxDistance = renderDistance * xSSAA,
                 Projection = Projection.Orthogonal,
-                Direction = Direction.Back,
-            };
-
-            TDPointD normal = camera.NormalSingleVector;
-            camera = new Camera()
-            {
-                TopLeft = new TDPoint() { X = (long)(-26.17766952966369 -12* normal.X) * xSSAA, Y = (long)(-9.177669529663685 - 12 * normal.Y) * xSSAA, Z = (long)(37.47665940288702 - 8) * xSSAA },
-                TopRight = new TDPoint() { X = (long)(9.177669529663685 - 12 * normal.X) * xSSAA, Y = (long)(26.17766952966369 - 12 * normal.Y) * xSSAA, Z = (long)(37.47665940288702 - 8) * xSSAA },
-                BottomLeft = new TDPoint() { X = (long)(-1.177669529663688 - 12 * normal.X) * xSSAA, Y = (long)(-34.17766952966369 - 12 * normal.Y) * xSSAA, Z = (long)(2.121320343559641 - 8) * xSSAA },
-                FocusDotDistance = focusDotDistance * xSSAA,
-                MaxDistance = renderDistance * xSSAA,
-                Projection = Projection.Orthogonal,
-                Direction = Direction.Back,
+                Direction = Direction.Front,
             };
 
             return camera;
