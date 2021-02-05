@@ -22,9 +22,9 @@ namespace StereoCanvasSamples.Objects
 
         private void MakeCube(int _cubeHalf, Dictionary<TDPoint, CubeDot> _pixels, ref Color color, ref Color colorLight, ref Color colorShadow)
         {
-            for (int x = -_cubeHalf + xSSAA / 2; x <= _cubeHalf + xSSAA / 2; x++)
-                for (int y = -_cubeHalf + xSSAA / 2; y <= _cubeHalf + xSSAA / 2; y++)
-                    for (int z = -_cubeHalf + xSSAA / 2; z <= _cubeHalf + xSSAA / 2; z++)
+            for (int x = -_cubeHalf; x <= _cubeHalf; x++)
+                for (int y = -_cubeHalf; y <= _cubeHalf; y++)
+                    for (int z = -_cubeHalf; z <= _cubeHalf; z++)
                     {
                         if (IsInnerPoint(_cubeHalf, x, y, z))
                         {
@@ -113,7 +113,7 @@ namespace StereoCanvasSamples.Objects
         }
         private bool isCubeHalf(long coord, int cubeHalf)
         {
-            return (coord >= (cubeHalf - xSSAA) && coord <= (cubeHalf + xSSAA));
+            return (coord >= (cubeHalf - xSSAA/2) && coord <= (cubeHalf - xSSAA/2));
         }
     }
 }
