@@ -13,13 +13,13 @@
 
 ### Проект рендерит следующие картинки:
 
-![4 points Bezier Curve](https://github.com/DmitriySidyakin/ComputerGraphics/blob/master/Documentations/img/b3a.gif)
+![4 points Bezier Curve](https://github.com/DmitriySidyakin/Blog-ComputerGraphics/blob/master/Documentations/img/b3a.gif)
 
-![4 points De Casteljau's Bezier Curve](https://github.com/DmitriySidyakin/ComputerGraphics/blob/master/Documentations/img/b3adc.gif)
+![4 points De Casteljau's Bezier Curve](https://github.com/DmitriySidyakin/Blog-ComputerGraphics/blob/master/Documentations/img/b3adc.gif)
 
-![5 points Bezier Curve](https://github.com/DmitriySidyakin/ComputerGraphics/blob/master/Documentations/img/b4a.gif)
+![5 points Bezier Curve](https://github.com/DmitriySidyakin/Blog-ComputerGraphics/blob/master/Documentations/img/b4a.gif)
 
-![5 points De Casteljau's Bezier Curve](https://github.com/DmitriySidyakin/ComputerGraphics/blob/master/Documentations/img/b4adc.gif)
+![5 points De Casteljau's Bezier Curve](https://github.com/DmitriySidyakin/Blog-ComputerGraphics/blob/master/Documentations/img/b4adc.gif)
 
 Изображения генерируются покадрово, кадры находятся в корне приложения.
 
@@ -27,15 +27,15 @@
 
 Приложение представлет собой Движок для рендеринга функциональных объектов на процессоре, без испльзования Видеокарты. Всё построение основано на хранении цветов в 3-х мерном массиве, который представляет собой мир. Главное правильно направить камеру.
 
-Подкаталог: https://github.com/DmitriySidyakin/ComputerGraphics/tree/master/3DSamles/
+Подкаталог: https://github.com/DmitriySidyakin/Blog-ComputerGraphics/tree/master/3DSamles/
 
 Русскоязычное Описание алгоритма: [Мой Блог: 3D графика](https://designermanuals.blogspot.com/2021/01/3D.html)
 
 ### Проект рендерит следующие картинки:
 
-![Cube](https://github.com/DmitriySidyakin/ComputerGraphics/blob/master/Documentations/img/cube.png)
+![Cube](https://github.com/DmitriySidyakin/Blog-ComputerGraphics/blob/master/Documentations/img/cube.png)
 
-![Bezier Surface](https://github.com/DmitriySidyakin/ComputerGraphics/blob/master/Documentations/img/BezierSurface.png)
+![Bezier Surface](https://github.com/DmitriySidyakin/Blog-ComputerGraphics/blob/master/Documentations/img/BezierSurface.png)
 
 Изображения генерируются в корне приложения.
 
