@@ -9,7 +9,7 @@
 
 Подкаталог: https://github.com/DmitriySidyakin/Blog-ComputerGraphics/tree/master/Bezier/BezierSolution
 
-Русскоязычное Описание алгоритма: [Мой Блог: Кривые Безье](https://designermanuals.blogspot.com/2019/12/KryvyeBezier.html)
+Русскоязычное Описание алгоритма: отсутствует
 
 ### Проект рендерит следующие картинки:
 
@@ -29,7 +29,7 @@
 
 Подкаталог: https://github.com/DmitriySidyakin/Blog-ComputerGraphics/tree/master/3DSamles/
 
-Русскоязычное Описание алгоритма: [Мой Блог: 3D графика](https://designermanuals.blogspot.com/2021/01/3D.html)
+Русскоязычное Описание алгоритма: отсутствует
 
 ### Проект рендерит следующие картинки:
 
