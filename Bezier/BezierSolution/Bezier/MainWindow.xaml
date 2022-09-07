@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Bezier"
         mc:Ignorable="d"
-        Title="https://designermanuals.blogspot.com - Bezier - MainWindow" Height="450" Width="800">
+        Title="Bezier - MainWindow" Height="450" Width="800">
     <Window.Effect>
         <DropShadowEffect/>
     </Window.Effect>
