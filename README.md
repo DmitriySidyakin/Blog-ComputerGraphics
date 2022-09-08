@@ -9,7 +9,7 @@
 
 Подкаталог: https://github.com/DmitriySidyakin/Blog-ComputerGraphics/tree/master/Bezier/BezierSolution
 
-Русскоязычное Описание алгоритма: отсутствует
+Русскоязычное Описание алгоритма: https://dmitriysidyakin.github.io/CSharp-Tutorials/csharp-articles/ru-ru/algorithms-on-csharp/articles/0001-Bezier-curves/
 
 ### Проект рендерит следующие картинки:
 
